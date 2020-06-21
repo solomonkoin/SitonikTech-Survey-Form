@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>survey-form</title>
+ <link href="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js">
+ <link href="https://fonts.googleapis.com/css?family=Architects+Daughter|Bowlby+One+SC|Sorts+Mill+Goudy&display=swap"
+  rel="stylesheet">
+  <link rel="stylesheet" href="form.css" />
+</head>
+<body>
+ <div id="survey">
+  <h1 id="title">Sitonik<span>Tech</span></h1>
+  <p id="description">Sign up at SitonikTech.com and get professional Services</p>
+  <form id="survey-form">
+ 
+   <div class="form-inner">
+    <div class="marg">
+     <label for"name" id="name-label">Name</label><br />
+     <input type="text" placeholder="enter your name" id="name" required><br />
+    </div>
+    <div class="ronaldo">
+     <label id="email-label">Email</label><br />
+     <input type="email" placeholder="enter your Email" id="email" required><br />
+    </div>
+    <div class="ronaldo">
+     <label id="number-label">Age</label><br />
+     <input type="number" min="18" max="65" placeholder="age" id="number" required><br />
+    </div>
+    <div class="ronaldo">
+     <label id="dropdown-label">Content type</label><br />
+     <select id="dropdown">
+      <option value="football">Web Design</option>
+      <option value="referee">Writing</option>
+ 
+     </select><br />
+    </div>
+    <div class="ronaldo">
+     <form-group>
+        <input type="radio" name="Web Design" value="1">Web Design</input>
+        <input type="radio" name="Web Design" value="2">SEO</input>
+        <br>
+        <br>
+      <label id="select-label">Services Offered</label><br />
+      <label>
+    </div>
+    <div class="marg-se">
+     <input type="checkbox" id="dybala" name="america" value="canada">Web Design<br />
+     </label>
+     <label>
+      <input type="checkbox" id="costa" name="brazil" value="costa rica">SEO Services<br />
+      <label>
+       <input type="checkbox" id="higuin" name="argentina" value="uruguy" checked>Web Testing<br />
+      </label>
+    </div>
+    </form-group>
+ 
+    <div class="ronaldo">
+     <label id="pjanic-label">Feed back</label><br />
+    </div>
+    <div class="chillini">
+     <textarea class="text-area" placeholder="any comment">
+     </textarea><br />
+    </div>
+    <input type="submit" id="submit">
+  </form>
+ </div>
+ </div>
+
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+</body>
+</html>
